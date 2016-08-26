@@ -12,9 +12,9 @@ namespace SimpleTodo.API.Migrations
                 c => new
                     {
                         TaskId = c.Int(nullable: false, identity: true),
-                        Name = c.String(),
+                        Name = c.String(nullable: false),
                         Priority = c.Int(nullable: false),
-                        Description = c.String(),
+                        Description = c.String(nullable: false),
                     })
                 .PrimaryKey(t => t.TaskId);
             
