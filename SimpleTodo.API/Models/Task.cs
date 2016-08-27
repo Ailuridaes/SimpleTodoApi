@@ -14,7 +14,6 @@ namespace SimpleTodo.API.Models
         public string Name { get; set; }
         [Required]
         public Priorities Priority { get; set; }
-        [Required]
         public string Description { get; set; }
     }
 }
