@@ -115,6 +115,10 @@
     <Compile Include="Migrations\201608272049510_MakeDescriptionOptional.Designer.cs">
       <DependentUpon>201608272049510_MakeDescriptionOptional.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201608291657385_AddIsCompleted.cs" />
+    <Compile Include="Migrations\201608291657385_AddIsCompleted.Designer.cs">
+      <DependentUpon>201608291657385_AddIsCompleted.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Priorities.cs" />
     <Compile Include="Models\Task.cs" />
@@ -138,6 +142,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201608272049510_MakeDescriptionOptional.resx">
       <DependentUpon>201608272049510_MakeDescriptionOptional.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201608291657385_AddIsCompleted.resx">
+      <DependentUpon>201608291657385_AddIsCompleted.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

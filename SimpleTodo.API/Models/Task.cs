@@ -15,5 +15,7 @@ namespace SimpleTodo.API.Models
         [Required]
         public Priorities Priority { get; set; }
         public string Description { get; set; }
+        public bool IsCompleted { get; set; }
+
     }
 }
