@@ -1,7 +1,7 @@
-# SanDiegoTopSpotsApi
+# SimpleTodoApi
 ###API backend to for simple todo list app
 
-Utilized by webpage in [this repository](https://github.com/Ailuridaes/SimpleTodoApp).
+Utilized by web application in [this repository](https://github.com/Ailuridaes/SimpleTodoApp).
 
 ### Technologies Used:
 - C#
