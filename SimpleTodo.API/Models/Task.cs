@@ -11,7 +11,7 @@ namespace SimpleTodo.API.Models
         [Required]
         public int TaskId { get; set; }
         [Required]
-        public string Name { get; set; }
+        public string Title { get; set; }
         [Required]
         public Priorities Priority { get; set; }
         public string Description { get; set; }

@@ -119,6 +119,10 @@
     <Compile Include="Migrations\201608291657385_AddIsCompleted.Designer.cs">
       <DependentUpon>201608291657385_AddIsCompleted.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201612242118064_ChangeNameToTitle.cs" />
+    <Compile Include="Migrations\201612242118064_ChangeNameToTitle.Designer.cs">
+      <DependentUpon>201612242118064_ChangeNameToTitle.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Priorities.cs" />
     <Compile Include="Models\Task.cs" />
@@ -145,6 +149,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201608291657385_AddIsCompleted.resx">
       <DependentUpon>201608291657385_AddIsCompleted.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612242118064_ChangeNameToTitle.resx">
+      <DependentUpon>201612242118064_ChangeNameToTitle.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
